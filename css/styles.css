@@ -14,18 +14,9 @@ body{
 a{
     text-decoration: none;
     color: white;
-    margin: 0 10px;
+    margin: 50px;
 }
 
-footer{
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: left;
-    margin: 20px 0;
-}
 main{
     display: flex;
     justify-content: center;
@@ -52,6 +43,5 @@ button{
 .project{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
