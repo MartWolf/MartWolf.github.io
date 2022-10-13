@@ -4,7 +4,12 @@ const about = document.getElementById("about");
 const contact = document.getElementById("contact");
 
 const portfolio_html = `
-    <h2>I AM A DOFFUSE </h2>
+<div class="project">
+<a href="#"><img src="img/employe.png" alt="picture of project" class="logo"></a>
+<a href="#"><img src="img/gameshow.png" alt="picture of project" class="logo"></a>
+<a href="#"><img src="img/photogallery.jpg" alt="picture of project" class="logo"></a>
+<a href="#"><img src="img/diagram.png" alt="picture of project" class="logo"></a>
+</div>
 `;
 
 const about_html = `
