@@ -5,10 +5,10 @@ const contact = document.getElementById("contact");
 
 const portfolio_html = `
 <div class="box">
-<a href="#"><p>A websit that shows of 13 different random employees using a fetch request </p><img src="img/employe.png" alt="picture of project" class="logo"></a>
-<a href="#"><p>A Sentence guessing game using javascript</p><img src="img/gameshow.png" alt="picture of project" class="logo"></a>
-<a href="#"><p>A photogallery where you can search for the image using tags</p><img src="img/photogallery.jpg" alt="picture of project" class="logo"></a>
-<a href="#"><p>A website that shows off different graphs made using chart.js</p><img src="img/diagram.png" alt="picture of project" class="logo"></a>
+<a href="Employee Direct/index.html""><p>A websit that shows of 13 different random employees using a fetch request </p><img src="img/employe.png" alt="picture of project" class="logo"></a>
+<a href="Game Show App/index.html"><p>A Sentence guessing game using javascript</p><img src="img/gameshow.png" alt="picture of project" class="logo"></a>
+<a href="An Interactive Photo Gallery/Index.html"><p>A photogallery where you can search for the image using tags</p><img src="img/photogallery.jpg" alt="picture of project" class="logo"></a>
+<a href="Web App Dashboard/index.html"><p>A website that shows off different graphs made using chart.js</p><img src="img/diagram.png" alt="picture of project" class="logo"></a>
 </div>
 `;
 
