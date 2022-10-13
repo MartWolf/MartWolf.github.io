@@ -4,7 +4,7 @@ const about = document.getElementById("about");
 const contact = document.getElementById("contact");
 
 const portfolio_html = `
-<div class="project">
+<div class="box">
 <a href="#"><img src="img/employe.png" alt="picture of project" class="logo"></a>
 <a href="#"><img src="img/gameshow.png" alt="picture of project" class="logo"></a>
 <a href="#"><img src="img/photogallery.jpg" alt="picture of project" class="logo"></a>
@@ -16,10 +16,13 @@ const about_html = `
 <h2>Hi my name is Martin Wolf.<br> I am a programmer in Html, CSS and Javascript.</h2>
 `;
 
-const contact_html = 
-`       <a href="https://www.linkedin.com/"><img class="logo" src="img/LI-In-Bug.png" alt="Linkedin logo"></a>
+const contact_html = `        
+<div class="box">
+<a href="https://www.linkedin.com/"><img class="logo" src="img/LI-In-Bug.png" alt="Linkedin logo"></a>
 <a href="https://outlook.live.com/"><img class="logo" src="img/Microsoft_Outlook-Logo.wine.png" alt=" Outlook logo"></a>
-<a href="https://twitter.com/"><img class="logo" src="img/twu.png" alt="Twitter Logo"></a>`;
+<a href="https://twitter.com/"><img class="logo" src="img/twu.png" alt="Twitter Logo"></a>
+</div>
+`;
 
 function ChangeDisplay (display) {
     main.innerHTML = display;  
